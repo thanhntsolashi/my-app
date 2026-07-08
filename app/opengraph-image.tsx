@@ -20,7 +20,7 @@ export default function Image() {
         justifyContent: "center",
       }}
     >
-      thanh trai ro
+      thanh dai ca
     </div>,
   );
 }
