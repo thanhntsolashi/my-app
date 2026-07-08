@@ -8,7 +8,7 @@ export const size = {
 
 export const contentType = "image/png";
 
-export default async function Image() {
+export default function Image() {
   return new ImageResponse(
     <div
       style={{
@@ -21,7 +21,7 @@ export default async function Image() {
         justifyContent: "center",
       }}
     >
-      thanh 123
+      thanh 456
     </div>,
   );
 }
