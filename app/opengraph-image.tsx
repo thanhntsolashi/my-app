@@ -10,6 +10,8 @@ export const contentType = "image/png";
 
 export const dynamic = "force-dynamic";
 
+export const revalidate = 0;
+
 export default async function Image() {
   return new ImageResponse(
     <div
@@ -23,7 +25,7 @@ export default async function Image() {
         justifyContent: "center",
       }}
     >
-      thanh abc
+      thanh 222
     </div>,
   );
 }
