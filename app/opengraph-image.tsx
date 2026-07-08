@@ -9,13 +9,7 @@ export const size = {
 export const contentType = "image/png";
 
 // Image generation
-export default async function Image({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
-
+export default async function Image() {
   return new ImageResponse(
     // ImageResponse JSX element
     <div
